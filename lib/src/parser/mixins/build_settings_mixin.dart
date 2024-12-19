@@ -2,7 +2,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 mixin BuildSettingsMixin {
   static final Map<String, dynamic> iosDefaultBuildSettings = {
-    "ASSETCATALOG_COMPILER_APPICON_NAME": "\$(ASSET_PREFIX)AppIcon",
+    "ASSETCATALOG_COMPILER_APPICON_NAME": "\$AppIcon-(ASSET_PREFIX)",
     "LD_RUNPATH_SEARCH_PATHS": "\$(inherited) @executable_path/Frameworks",
     "SWIFT_OBJC_BRIDGING_HEADER": "Runner/Runner-Bridging-Header.h",
     "SWIFT_VERSION": "5.0",
