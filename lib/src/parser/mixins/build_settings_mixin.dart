@@ -19,7 +19,6 @@ mixin BuildSettingsMixin {
     "FRAMEWORK_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
     "LIBRARY_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
     "INFOPLIST_FILE": "Runner/Info-\$(ASSET_PREFIX).plist",
-    "LAUNCH_SCREEN_STORYBOARD": "LaunchScreen\$(ASSET_PREFIX)", 
   };
 
   @JsonKey(defaultValue: {})
