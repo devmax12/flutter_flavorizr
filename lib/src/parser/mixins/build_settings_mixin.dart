@@ -12,7 +12,7 @@ mixin BuildSettingsMixin {
   };
 
   static final Map<String, dynamic> macosDefaultBuildSettings = {
-    "ASSETCATALOG_COMPILER_APPICON_NAME": "\$(ASSET_PREFIX)AppIcon",
+    "ASSETCATALOG_COMPILER_APPICON_NAME": "\$AppIcon-(ASSET_PREFIX)",
     "LD_RUNPATH_SEARCH_PATHS": "\$(inherited) @executable_path/Frameworks",
     "SWIFT_VERSION": "5.0",
     "FRAMEWORK_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
