@@ -8,7 +8,7 @@ mixin BuildSettingsMixin {
     "SWIFT_VERSION": "5.0",
     "FRAMEWORK_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
     "LIBRARY_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
-    "INFOPLIST_FILE": "Runner/Info.plist",
+    "INFOPLIST_FILE": "Runner/Info-\$(ASSET_PREFIX).plist",
   };
 
   static final Map<String, dynamic> macosDefaultBuildSettings = {
@@ -17,7 +17,7 @@ mixin BuildSettingsMixin {
     "SWIFT_VERSION": "5.0",
     "FRAMEWORK_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
     "LIBRARY_SEARCH_PATHS": ['\$(inherited)', '\$(PROJECT_DIR)/Flutter'],
-    "INFOPLIST_FILE": "Runner/Info.plist",
+    "INFOPLIST_FILE": "Runner/Info-\$(ASSET_PREFIX).plist",
   };
 
   @JsonKey(defaultValue: {})
